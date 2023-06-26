@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "HabbiT"
+version = "0.1.0"
+description = ""
+authors = ["sergio-quiroga <sergio.quiroga@globant.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.90.1"
+uvicorn = "^0.20.0"
+pytest = "^7.2.1"
+databases = "^0.7.0"
+aiomysql = "^0.2.0"
+mysql-connector-python = "^8.0.26"
+python-dotenv = "^1.0.0"
+asynctest = "^0.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
